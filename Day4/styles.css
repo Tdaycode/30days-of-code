@@ -1,0 +1,55 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  text-align: center;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  padding: 0 auto;
+  width: 600px;
+  text-align: center;
+margin: 30px;
+}
+.signup{
+  text-align: center;
+padding-bottom: 20px;
+}
+.login{
+  margin: 30px;
+  background-color: white;
+  text-align: center;
+}
+
+input[type="email"]{
+  display: block;
+  width: 100%;
+  padding: 4%;
+border-radius:10px;
+}
+input[type="text"]{
+  display: block;
+  width: 100%;
+  padding: 4%;
+border-radius:10px;
+}
+input[type="password"]{
+  display: block;
+  width: 100%;
+padding: 4%;
+border-radius:10px;
+}
+.facebook{
+  border-radius: 100%;
+}
+.btn{
+  width: 25rem;
+  height: 2rem;
+  color: white;
+  background-color: blue;
+  border-radius: 10px;
+}
+footer{
+  text-align: center;
+}
