@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px 0px 20px;
+    background-color: teal;
+}
+
+header .day {
+    border-radius: 50%;
+}
+
+header h2 {
+    float: right;
+    padding: 6px 0px 0px;
+}
+
+header {
+    width: 100vw;
+}
+
+header ul {
+    list-style-type: none;
+}
+
+header li {
+    float: left;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+header a {
+    text-decoration: none;
+    display: block;
+    padding: 13px;
+    color: black;
+    font-size: 30px;
+}
+
+header a:hover {
+    background-color: tomato;
+    font-weight: 500;
+    color: white;
+}
+
+.foodies {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: lightblue;
+}
+
+img {
+    border-radius: 75%;
+}
+
+.container1 {
+    width: 100%;
+    /* height: 100%; */
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-top: 2%;
+    background-image: url("food4.jpg");
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: cover;
+}
+
+.knw-us {
+    text-align: center;
+    margin-top: 110px;
+    font-size: 20px;
+    color: blue;
+}
+
+button {
+    width: 130px;
+    height: 80px;
+    font-size: 25px;
+    background-color: navajowhite;
+    color: crimson;
+}
+
+
+/* #slider {
+    overflow: hidden;
+} */
+
+.slider {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+    background-color: red;
+    /* width: 500%;
+    margin: 0;
+    left: 0; */
+    /* animation: 20s slider infinite; */
+}
+
+footer {
+    text-align: center;
+    background-color: teal;
+    width: 100%;
+    height: 10vh;
+}
+
+
+/* #slider figure img {
+    width: 20%;
+    float: left;
+}
+
+@keyframes slider {
+    0% {
+        left: 0;
+    }
+    20% {
+        left: 0;
+    }
+    25% {
+        left: -100%;
+    }
+    45% {
+        left: -100%;
+    }
+    50% {
+        left: -200%;
+    }
+    70% {
+        left: -200%;
+    }
+    75% {
+        left: -300%;
+    }
+    95% {
+        left: -300%;
+    }
+    100% {
+        left: -400%;
+    }
+} */
