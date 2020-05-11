@@ -1,0 +1,144 @@
+body {
+    text-align: center;
+}
+
+header {
+    background-color: teal;
+    width: 100%;
+    height: 4vw;
+}
+
+.header h1 {
+    float: left;
+    font-size: 25px;
+    padding: 4px;
+    padding-top: 0px;
+    margin-top: 0px;
+    color: black;
+    font-family: fantasy;
+}
+
+header li {
+    float: right;
+    list-style-type: none;
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+}
+
+.main-container {
+    width: 100%;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 5%;
+    margin-top: 1%;
+    padding: 5px 2px 0px 17px;
+    background-image: url("food8.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: none;
+}
+
+button {
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: crimson;
+    color: floralwhite;
+}
+
+@media (max-width:1080px) {
+    .main-container {
+        flex-direction: column;
+        padding: 3px 20px 6px 17px;
+        text-align: center;
+        width: 100%;
+    }
+    .main-container div {
+        margin-top: 10%;
+    }
+    img {
+        width: 100%;
+        height: 350px;
+    }
+    header li {
+        float: left;
+        list-style-type: none;
+        font-size: 15px;
+        padding: 3px 2px 0px 17px;
+        color: white;
+    }
+    header {
+        background-color: teal;
+        width: 100%;
+        height: 9vw;
+    }
+    button {
+        height: 40px;
+        width: 400px;
+    }
+    .container-2 div {
+        margin: 0.2%;
+    }
+    .container-2 {
+        display: none;
+        /* padding: 5px; */
+        width: 100%;
+        height: 350px;
+        flex-direction: column;
+        /* background-color: lightseagreen; */
+    }
+}
+
+.container-2 {
+    display: flex;
+    padding: 5px;
+    flex-direction: row;
+    justify-content: center;
+    background-color: lightseagreen;
+}
+
+
+/* .container-2 div img {
+    margin: 2%;
+    width: 400px;
+} */
+
+h1 {
+    background-color: crimson;
+    color: floralwhite;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+footer {
+    background-color: teal;
+    width: 100%;
+    /* height: 4vw; */
+    margin-top: 3%;
+}
+
+.footer {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: crimson;
+    color: floralwhite;
+}
+
+h3 {
+    font-size: 25px;
+    font-family: cursive;
+}
+
+p {
+    font-family: cursive;
+    margin-right: 3px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 25px;
+}
