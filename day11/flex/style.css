@@ -48,6 +48,7 @@ button {
     border-radius: 10px;
     background-color: crimson;
     color: floralwhite;
+text-align:center;
 }
 
 @media (max-width:1080px) {
