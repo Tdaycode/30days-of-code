@@ -1,3 +1,10 @@
+
+@media and only screen (1080px) {
+body{
+min-width:80%;
+max-height:70vw;
+}
+
 body {
     background-image: url(https://scontent.flos1-1.fna.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/1013789_288672741278268_1828458930_n.jpg?_nc_cat=109&_nc_sid=43edb5&efg=eyJpIjoidCJ9&_nc_eui2=AeF5RrkJIv6631FeHTQFR2gxZpAgPiUqqntmkCA-JSqqe4J5ZZN4eybapzOUpHKIpMlAeNx44dUFmLhBISi6bVgl&_nc_ohc=KjBUEym3rlcAX8wI5iI&_nc_ht=scontent.flos1-1.fna&_nc_tp=14&oh=dbba303484766cf74b3537ff7f91c06a&oe=5EC02416);
 }
