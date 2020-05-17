@@ -1,0 +1,32 @@
+body {
+    text-align: center;
+    background-color: aqua;
+    font-family: fantasy;
+}
+
+.btn-container {
+    widows: 500px;
+    margin: 25%;
+}
+
+.btn {
+    font-family: cursive;
+    font-size: 40px;
+    color: wheat;
+    background-color: teal;
+    width: 300px;
+    height: 100px;
+    box-shadow: 0px 7px teal;
+    outline: none;
+    cursor: pointer;
+}
+
+.btn :hover {
+    background-color: black;
+}
+
+.colorname {
+    color: white;
+    background-color: black;
+    border: 2px solid black;
+}
