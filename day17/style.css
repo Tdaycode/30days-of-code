@@ -5,8 +5,12 @@ body {
 }
 
 .btn-container {
-    widows: 500px;
-    margin: 25%;
+   
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50% , -50%)
+        padding:10px;
 }
 
 .btn {
@@ -19,6 +23,7 @@ body {
     box-shadow: 0px 7px teal;
     outline: none;
     cursor: pointer;
+    opacity:0.9;
 }
 
 .btn :hover {
